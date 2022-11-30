@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+</head>
+<body>
+    <form action="mailto:nicolas@nicolasbs.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Name: </label></td>
+                <td><input type="text" size="50" name="yourName"></td>
+            </tr>
+            <tr>
+                <td><label>Email: </label></td>
+                <td><input type="text" size="50" name="yourEmail"></td>
+            </tr>
+            <tr>
+                <td><label>Upload photo: </label></td>
+                <td><input type="file" accept="image/png, image/jpg, image/jpeg" name="yourPicture"></td>
+            </tr>
+            <tr>
+                <td><label>Date of birth: </label></td>
+                <td><input type="date" value="2022-11-20" name="yourDob"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your message: </label></td>
+                <td><textarea name="yourMessage" rows="10" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><br></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit application"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
